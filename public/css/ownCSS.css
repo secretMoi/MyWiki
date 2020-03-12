@@ -1,0 +1,286 @@
+/* Sections */
+body {
+    line-height: 1.3;
+    font-size: 1.2em;
+    font-family: arial;
+}
+
+header {
+    margin-top: 1.5em;
+    margin-left: 400px;
+}
+
+section {
+    margin-left: 400px;
+    margin-right: 100px;
+    padding-bottom: 60px;
+}
+
+nav {
+    background-color: #F5F6F7;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    width: 300px;
+    padding-left: 2em;
+    left: 0;
+}
+
+footer {
+    background-color: #F5F6F7;
+    height: 185px;
+    bottom: 0;
+    position: fixed;
+    width: 300px;
+    padding-left: 2em;
+    left: 0;
+}
+/* Fin sections */
+
+/* Header */
+#logo {
+    margin-left: 1000px;
+    display: block;
+    background-image: url("../images/logo.png");
+    height: 170px;
+    width: 356px;
+}
+#logo:hover {
+    background-image: url("../images/logo_hover.png");
+}
+
+#logos {
+    position: absolute;
+}
+
+#logos img {
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 0px;
+    opacity: 0.5;
+}
+
+#logos img:hover{
+    opacity: 1;
+}
+/* Fin header */
+
+/* Navigation */
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1.5em;
+}
+
+#titre {
+    margin-top: 1.5em;
+    text-decoration: underline;
+}
+
+#titre:hover {
+    text-decoration: underline #F56A6A;
+}
+
+.elementMenu {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid;
+    border-color: #DADFE1;
+}
+/* Fin navigation */
+
+/* Footer */
+.footerTD {
+    padding-left: 15px;
+}
+
+.footerTR {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 0;
+    padding-right: 0;
+    border-bottom: 1px solid;
+    border-color: #DADFE1;
+}
+/* Fin footer */
+
+/* Accueil */
+.description {
+    color: #7F888F;
+    margin-right: 30px;
+}
+
+.accueilTD {
+    width: 600px;
+    border-bottom: 1px solid;
+    border-color: #DADFE1;
+    padding-top: 50px;
+}
+
+.accueilBouton {
+    margin-top: 100px;
+}
+/* Fin Accueil */
+
+/* Contact */
+.bouton {
+    height: 3em;
+    border: solid;
+    background-color: #FFF;
+    border-color: #F56A6A;
+    border-radius: 7px;
+}
+.bouton:hover {
+    background-color: #FEF7F7;
+    cursor: pointer;
+}
+
+.formulaire {
+    border: solid;
+    background-color: #F5F6F7;
+    border-color: #F56A6A;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 700px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.formulaire:hover {
+    background-color: #FEF7F7;
+}
+
+.formulaire:focus { /* Quand on clique sur le champ */
+    border-style: none;
+    outline: 3px solid #F56A6A; /* Box rajoutée par le navigateur contrôlée pour la couleur du site */
+    box-shadow: 0 0 7px 3px #F56A6A; /* TailleV tailleH Flou Etalement */
+}
+
+.formulaireContact {
+    width: 150px;
+}
+
+.formulaireContact:hover {
+    color: #F56A6A;
+}
+
+.deuxPoints {
+    width: 50px;
+}
+
+#emplacementBouton {
+    padding-left: 710px;
+}
+/* Fin Contact */
+
+/* Début article */
+section h3 {
+    color: #F56A6A;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section h4 {
+    width: 300px;
+    color: #DADFE1;
+}
+
+section h4:hover {
+    color: #3d4449;
+}
+
+#source {
+    float: right;
+    color: #DADFE1;
+}
+
+#source:hover {
+    color: #F56A6A;
+}
+
+section video, section audio {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* Fin article */
+
+h2:hover {
+    color: #F56A6A;
+}
+
+strong, b {
+    color: #3d4449;
+    font-weight: 600;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+a {
+    color: #3d4449;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F56A6A;
+}
+
+h1, h2, h3, h4 {
+    font-family: serif;
+    font-weight: 700; /* en gras */
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0 0 0.5em 0;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    background-color: #F56A6A;
+    border: 1px solid #F56A6A;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0;
+    border-radius: 7px;
+}
